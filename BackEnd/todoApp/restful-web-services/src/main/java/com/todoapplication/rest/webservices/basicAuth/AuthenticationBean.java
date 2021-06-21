@@ -1,5 +1,6 @@
 package com.todoapplication.rest.webservices.basicAuth;
 
+//This is AuthenticationBean class
 public class AuthenticationBean {
 
 	private String message;
