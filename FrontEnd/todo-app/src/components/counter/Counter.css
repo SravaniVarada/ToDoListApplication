@@ -1,0 +1,28 @@
+button {
+    background-color: blue;
+    font-size: 16px;
+    color: darkgray;
+    padding: 8000px, 500px;
+    width: 100px;
+    height: 35px;
+}
+
+.count {
+    font-size: 60px;
+    color: blue;
+    padding: 80px, 500px;
+
+}
+
+.resetButton{
+    background-color: rgb(235, 14, 143);
+    font-size: 16px;
+    color: black;
+    padding: 8000px, 500px;
+    width: 200px;
+    height: 40px;
+}
+
+.body{
+    padding: 850px,500px;
+}

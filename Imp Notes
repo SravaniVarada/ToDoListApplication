@@ -1,0 +1,58 @@
+Starting opn cmd and execute
+ node --version
+ npm -version
+ 
+ npm start in todoapp folder
+
+to create react app : npx create-react-app todoapp (todoapp name of app)
+
+http://localhost:3000 - reactJS app web page
+http://192.168.0.12:3000
+
+npm start in cmd to launch application - in frondEnd source
+
+Step 02 - An Update to Create React App
+There are two kinds of components in react - Function and Class.
+
+ 
+Create React App - Recent Update
+
+App.js is no longer created as Class Component. It is switched to Function Component.
+
+Here on, in the course, we use App.js as a Class Component.
+
+
+CHANGE YOU NEED TO MAKE IN NEXT STEP IN VISUAL STUDIO CODE
+
+Replace App.js with code below:
+
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+ 
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+        </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+        </a>
+        </header>
+      </div>
+    );
+  }
+}
+export default App;
+
+
+npm add react-router-dom to add router framework into react
