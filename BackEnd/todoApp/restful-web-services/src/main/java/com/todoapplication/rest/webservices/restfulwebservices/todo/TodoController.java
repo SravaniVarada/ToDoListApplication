@@ -3,7 +3,6 @@ package com.todoapplication.rest.webservices.restfulwebservices.todo;
 import java.net.URI;
 import java.util.List;
 
-import org.hibernate.annotations.UpdateTimestamp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
